@@ -1,6 +1,15 @@
 #pragma once
+#include "../Strategy/IFightStrategy.h"
 
-struct IFighter
+class IFighter
 {
-	virtual void Fight() = 0;
+private:
+	IFightStrategy* FighStrategy = nullptr;
+
+public:
+	virtual ~IFighter();
+
+	void Fight();
+
+	void SetStrategy(IFightStrategy* strategy);
 };

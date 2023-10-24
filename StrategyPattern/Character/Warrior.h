@@ -9,6 +9,4 @@ public:
 	explicit Warrior(std::string name);
 
 	virtual ~Warrior();
-
-	virtual void Fight() override;
 };

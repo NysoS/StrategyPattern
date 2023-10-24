@@ -128,10 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Character\Character.cpp" />
+    <ClCompile Include="Character\IFighter.cpp" />
+    <ClCompile Include="Character\IHealther.cpp" />
     <ClCompile Include="Character\Warrior.cpp" />
     <ClCompile Include="Character\Wizzard.cpp" />
     <ClCompile Include="StrategyPattern.cpp" />
     <ClCompile Include="Character\Thief.cpp" />
+    <ClCompile Include="Strategy\DaggerFightStrategy.cpp" />
+    <ClCompile Include="Strategy\IFightStrategy.cpp" />
+    <ClCompile Include="Strategy\SwordFightStrategy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Character\Character.h" />
@@ -140,6 +145,10 @@
     <ClInclude Include="Character\Warrior.h" />
     <ClInclude Include="Character\Wizzard.h" />
     <ClInclude Include="Character\Thief.h" />
+    <ClInclude Include="IFightStrategy.h" />
+    <ClInclude Include="Strategy\DaggerFightStrategy.h" />
+    <ClInclude Include="Strategy\IFightStrategy.h" />
+    <ClInclude Include="Strategy\SwordFightStrategy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

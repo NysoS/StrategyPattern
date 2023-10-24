@@ -1,6 +1,7 @@
 #pragma once
 
-struct IHealther
+class IHealther
 {
-	virtual void Health() = 0;
+public:
+	void Health();
 };
