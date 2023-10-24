@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Character\Character.cpp" />
+    <ClCompile Include="Character\Warrior.cpp" />
+    <ClCompile Include="Character\Wizzard.cpp" />
     <ClCompile Include="StrategyPattern.cpp" />
+    <ClCompile Include="Character\Thief.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character\Character.h" />
+    <ClInclude Include="Character\IFighter.h" />
+    <ClInclude Include="Character\IHealther.h" />
+    <ClInclude Include="Character\Warrior.h" />
+    <ClInclude Include="Character\Wizzard.h" />
+    <ClInclude Include="Character\Thief.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
