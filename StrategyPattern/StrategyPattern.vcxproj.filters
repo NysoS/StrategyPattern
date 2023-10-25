@@ -13,87 +13,99 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Character">
+      <UniqueIdentifier>{b21b49e7-82e4-43c4-9523-2d4ee62da0e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Strategy">
+      <UniqueIdentifier>{0a252ffc-2c1e-4c1e-b0ce-ff204b034ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Character">
+      <UniqueIdentifier>{01a5f47d-1c5a-413f-b778-cd09b234f3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Strategy">
+      <UniqueIdentifier>{5366dc79-478f-42d3-8528-d2a0e53cdfa5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StrategyPattern.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="Character\Character.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Character\Warrior.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Character</Filter>
     </ClCompile>
     <ClCompile Include="Character\Wizzard.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Character\Warrior.cpp">
+      <Filter>Fichiers sources\Character</Filter>
     </ClCompile>
     <ClCompile Include="Character\Thief.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Character\IFighter.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Character</Filter>
     </ClCompile>
     <ClCompile Include="Character\IHealther.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Character\IFighter.cpp">
+      <Filter>Fichiers sources\Character</Filter>
     </ClCompile>
     <ClCompile Include="Strategy\DaggerFightStrategy.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Strategy\IFightStrategy.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Strategy\SwordFightStrategy.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Strategy\IHealtherStrategy.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Strategy\HealthTeamStrategy.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Strategy</Filter>
     </ClCompile>
     <ClCompile Include="Strategy\HealthSelfStrategy.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\HealthTeamStrategy.cpp">
+      <Filter>Fichiers sources\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\IFightStrategy.cpp">
+      <Filter>Fichiers sources\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\IHealtherStrategy.cpp">
+      <Filter>Fichiers sources\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\SwordFightStrategy.cpp">
+      <Filter>Fichiers sources\Strategy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Character\Character.h">
+      <Filter>Fichiers d%27en-tête\Character</Filter>
+    </ClInclude>
     <ClInclude Include="Character\IFighter.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Character</Filter>
     </ClInclude>
     <ClInclude Include="Character\IHealther.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Character\Warrior.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Character\Wizzard.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Character</Filter>
     </ClInclude>
     <ClInclude Include="Character\Thief.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Character</Filter>
     </ClInclude>
-    <ClInclude Include="Character\Character.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="Character\Warrior.h">
+      <Filter>Fichiers d%27en-tête\Character</Filter>
     </ClInclude>
-    <ClInclude Include="IFightStrategy.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="Character\Wizzard.h">
+      <Filter>Fichiers d%27en-tête\Character</Filter>
     </ClInclude>
     <ClInclude Include="Strategy\DaggerFightStrategy.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Strategy\IFightStrategy.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Strategy\SwordFightStrategy.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Strategy\IHealtherStrategy.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Strategy\HealthTeamStrategy.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Strategy</Filter>
     </ClInclude>
     <ClInclude Include="Strategy\HealthSelfStrategy.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\HealthTeamStrategy.h">
+      <Filter>Fichiers d%27en-tête\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="IFightStrategy.h">
+      <Filter>Fichiers d%27en-tête\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\IFightStrategy.h">
+      <Filter>Fichiers d%27en-tête\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\IHealtherStrategy.h">
+      <Filter>Fichiers d%27en-tête\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\SwordFightStrategy.h">
+      <Filter>Fichiers d%27en-tête\Strategy</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
