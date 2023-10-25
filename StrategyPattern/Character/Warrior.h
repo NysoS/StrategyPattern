@@ -5,7 +5,6 @@
 class Warrior : public Character, public IFighter
 {
 public:
-
 	explicit Warrior(std::string name);
 
 	virtual ~Warrior();

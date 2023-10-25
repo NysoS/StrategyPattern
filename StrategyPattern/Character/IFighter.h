@@ -11,5 +11,5 @@ public:
 
 	void Fight();
 
-	void SetStrategy(IFightStrategy* strategy);
+	void SetFightStrategy(IFightStrategy* strategy);
 };

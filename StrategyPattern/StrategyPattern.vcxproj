@@ -136,6 +136,9 @@
     <ClCompile Include="Character\Thief.cpp" />
     <ClCompile Include="Strategy\DaggerFightStrategy.cpp" />
     <ClCompile Include="Strategy\IFightStrategy.cpp" />
+    <ClCompile Include="Strategy\IHealtherStrategy.cpp" />
+    <ClCompile Include="Strategy\HealthSelfStrategy.cpp" />
+    <ClCompile Include="Strategy\HealthTeamStrategy.cpp" />
     <ClCompile Include="Strategy\SwordFightStrategy.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +151,9 @@
     <ClInclude Include="IFightStrategy.h" />
     <ClInclude Include="Strategy\DaggerFightStrategy.h" />
     <ClInclude Include="Strategy\IFightStrategy.h" />
+    <ClInclude Include="Strategy\IHealtherStrategy.h" />
+    <ClInclude Include="Strategy\HealthSelfStrategy.h" />
+    <ClInclude Include="Strategy\HealthTeamStrategy.h" />
     <ClInclude Include="Strategy\SwordFightStrategy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

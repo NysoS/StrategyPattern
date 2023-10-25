@@ -19,7 +19,7 @@ void IFighter::Fight()
 	}
 }
 
-void IFighter::SetStrategy(IFightStrategy* strategy)
+void IFighter::SetFightStrategy(IFightStrategy* strategy)
 {
 	this->FighStrategy = strategy;
 }
